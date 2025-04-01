@@ -16,7 +16,7 @@
 			id: "0591231816306F9E"
 			rewards: [{
 				icon: {
-					id: "create:experience_nugget"
+					id: "minecraft:experience_bottle"
 				}
 				id: "7C39668A01E4BBD5"
 				type: "xp"
