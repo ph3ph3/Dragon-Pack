@@ -1,6 +1,6 @@
 {
   "enableStackablePotions": true,
-  "potionMaxStackSize": 3,
+  "potionMaxStackSize": 16,
   "splashPotionCooldown": 1,
   "enableStackableEnchantedBooks": true,
   "enchantedBookMaxStackSize": 64,
