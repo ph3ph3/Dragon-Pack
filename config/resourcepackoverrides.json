@@ -1,47 +1,55 @@
 {
-  "schema_version": "2"
+
+  "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
-	"vanilla",
-	"mod_resources",
 	"moonlight:mods_dynamic_assets",
-	"mod/dragonsurvival:resourcepacks/ds_dark_gui",
-	"mod/dragonsurvival:resourcepacks/draconized_armor",
-	"file/AL\u0027s 3D Potions.zip",
-	"file/AL\u0027s Skeletons Revamped+FA 1.4.zip",
-	"file/AL\u0027s Spiders Revamped+FA 1.3.zip",
-	"file/AL\u0027s Scorpions  Crabs+FA.zip",
-	"file/FreshTurtleVariants1.21-1.21.4V1.0.zip",
-	"file/FreshAnimations_v1.9.2.zip",
-	"file/\u00A7eTorches\u00A78-\u00A7eReimagined\u00A70_\u00A78[v1.4]\u00A70.zip",
-	"file/CreateEasyVillager_v6.zip",
-	"file/CreateSophisticatedBackpacks.zip",
-	"file/Medieval_Style_Lootr.zip",
-	"file/Torchmaster Remaster.zip",
+	"mod_resources",
 	"file/WhenDungeonsArise-LootTweaks-1.21.1-2.1.64.zip",
+	"file/Torchmaster Remaster.zip",
+	"file/CreateSophisticatedBackpacks.zip",
+	"file/CreateEasyVillager_v6.zip",
+	"file/\u00A7eTorches\u00A78-\u00A7eReimagined\u00A70_\u00A78[v1.4]\u00A70.zip",
 	"file/boss-refreshed-v1.4.zip",
+	"file/FreshAnimations_v1.9.2.zip",
+	"file/FreshTurtleVariants1.21-1.21.4V1.0.zip",
+	"file/AL\u0027s Scorpions  Crabs+FA.zip",
+	"file/AL\u0027s Spiders Revamped+FA 1.3.zip",
+	"file/AL\u0027s Skeletons Revamped+FA 1.4.zip",
+	"file/AL's 3D Potions.zip",
 	"file/waystones_1.21.1.zip",
+	"file/Medieval_Style_Lootr.zip",
 	"file/Unique Dark 1.20.2-1.21.x (free).zip",
-	],
-	
-	"default_overrides": {
-		"force_compatible": true
-	},
+	"mod/dragonsurvival:resourcepacks/draconized_armor",
+	"mod/dragonsurvival:resourcepacks/ds_dark_gui",
+  ],
+  
+  "default_overrides": {
+    "force_compatible": true
+  },
+  
+  "pack_overrides": {
+    "vanilla": {
+      "title": "\"Vanilla Assets\"",
+      "description": "\"Resource pack from Minecraft\""
+    },
 	
 	"pack_overrides": {
-		"vanilla": {
-			"title": "\"Vanilla Assets\"",
-			"description": "\"Resorces pack from minecraft\""
-		},
-	
+	"file/WhenDungeonsArise-LootTweaks-1.21.1-2.1.64.zip": {
+		"hidden": true
+		}
+	},
+		"
 	"1": [
-	"mod_resources",
-	"moonlight:mods_dynamic_assets",
 	"file/WhenDungeonsArise-LootTweaks-1.21.1-2.1.64.zip",
+	"moonlight:mods_dynamic_assets",
+	"mod_resources"
 	],
 	
 	"$$1": {
+		"default_position": "BOTTOM",
 		"hidden": true,
 		"required": true
 	}
+  }
 }
