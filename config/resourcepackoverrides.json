@@ -33,23 +33,5 @@
       "title": "\"Vanilla Assets\"",
       "description": "\"Resource pack from Minecraft\""
     },
-	
-	"pack_overrides": {
-	"file/WhenDungeonsArise-LootTweaks-1.21.1-2.1.64.zip": {
-		"hidden": true
-		}
-	},
-		"
-	"1": [
-	"file/WhenDungeonsArise-LootTweaks-1.21.1-2.1.64.zip",
-	"moonlight:mods_dynamic_assets",
-	"mod_resources"
-	],
-	
-	"$$1": {
-		"default_position": "BOTTOM",
-		"hidden": true,
-		"required": true
-	}
   }
 }
