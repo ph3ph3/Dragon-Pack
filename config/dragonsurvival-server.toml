@@ -414,7 +414,7 @@
 	#Determines the amount of ticks (20 ticks = 1 second) it takes for one hunger point to be drained while flying
 	# Default: 50
 	# Range: > 1
-	flight_hunger_ticks = 50
+	flight_hunger_ticks = 170
 	#Dragons will take damage from colliding whilst glide-flying (similar to elytra).
 	enable_collision_damage = true
 	#Determines the required food values to be able to fly
