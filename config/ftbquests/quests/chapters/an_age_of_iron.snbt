@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "an_age_of_iron"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "6D4574FE6C5C8589"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["685ADD2D586DE8E1"]
+			id: "0591231816306F9E"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "7C39668A01E4BBD5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				id: "46F55155C0CB6B07"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0591231816306F9E"]
+			hide_until_deps_complete: true
+			id: "1F0ED751B543A1B5"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "28CA84A3432E73DD"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F0ED751B543A1B5"]
+			dependency_requirement: "one_started"
+			hide_until_deps_complete: true
+			id: "73B91DC9650B951C"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "72DC8CDA2081D423"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				consume_items: false
+				id: "54E23CE28CB2BFD7"
+				item: { count: 1, id: "minecraft:iron_shovel" }
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F0ED751B543A1B5"]
+			dependency_requirement: "one_started"
+			hide_until_deps_complete: true
+			id: "3E0637285F6766D4"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "02679B84A4B0C043"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7AFAA914583BAB85"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1F0ED751B543A1B5"]
+			hide_until_deps_complete: true
+			id: "74227C5E2C8EC513"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "02587E75829783A0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "44C02E94145C7431"
+				item: { count: 1, id: "minecraft:iron_axe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1F0ED751B543A1B5"]
+			hide_until_deps_complete: true
+			id: "2EF1D84C5151773C"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "7AF4DDA3122D351C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47B0196C75937DB2"
+				item: { count: 1, id: "minecraft:hopper" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F0ED751B543A1B5"]
+			hide_until_deps_complete: true
+			id: "582E6A19DB50FDBD"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "54CFA917CEA34BF6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1DD0A359E0D0DDC2"
+				item: { count: 1, id: "minecraft:iron_hoe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["73B91DC9650B951C"]
+			hide_until_deps_complete: true
+			id: "16DFE8D8C41164DE"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "30DF63EB446AC855"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 5L
+				id: "6DA58443E3323931"
+				item: { count: 1, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16DFE8D8C41164DE"]
+			id: "0ABD3F1A0ACFC255"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "6868B6F504B77DA9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "56011E4F7AD639C2"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:sands)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16DFE8D8C41164DE"]
+			hide_until_deps_complete: true
+			id: "7FA30ADA89FDF69E"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "12EB9842D9CC5AF5"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "05775E91944E4EE5"
+				item: { count: 1, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E0637285F6766D4"]
+			hide_until_deps_complete: true
+			id: "500973EECF4614D5"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "3ADB1C476CBD4DCC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: {
+					id: "minecraft:zombie_head"
+				}
+				id: "7287EF15A30EAF11"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["500973EECF4614D5"]
+			id: "791349423666385C"
+			rewards: [{
+				icon: {
+					id: "minecraft:experience_bottle"
+				}
+				id: "691CDC6F8027D70C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: {
+					id: "minecraft:skeleton_skull"
+				}
+				id: "5307FF730E4A63CB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+}
