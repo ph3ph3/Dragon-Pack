@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "my_travels"
+	group: ""
+	id: "4A5D4AAACC2B7E5C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7B949D3A11724E12"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1DEF99095C31E048"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "05A5B44ED5E32884"
+			tasks: [{
+				biome: "minecraft:plains"
+				id: "54DAF155704A04E2"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "42E93D98477ED35C"
+			tasks: [{
+				biome: "minecraft:desert"
+				id: "3E5D39E137369429"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5223C7CE97F5226C"
+			tasks: [{
+				biome: "minecraft:beach"
+				id: "1433CED1FE4C20E2"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0F833C2A13E56896"
+			tasks: [{
+				biome: "minecraft:forest"
+				id: "180A2FD06F5E4550"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "712BAB8CCF08DBA8"
+			tasks: [{
+				biome: "minecraft:badlands"
+				id: "5440DB1B7E72C139"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+}
